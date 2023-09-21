@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+.rubrik {
+  margin-left: 200px;
+}
+
+.facts {
+  margin-left: 130px;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -32,12 +40,20 @@ nav ul {
   padding: 0;
 }
 
+li,
+a {
+  margin: 18px;
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
 article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  background-color: #f1f1f1;
-  padding: 10px;
+  background-color: white;
+  padding: 0px;
+  margin: 0px 0px 30px 270px;
 }
 
 footer {
@@ -55,5 +71,5 @@ footer {
 }
 
 img {
-  size-adjust: 40px;
+  border-radius: 50px;
 }
