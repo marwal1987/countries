@@ -6,7 +6,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
   margin: 0 auto;
-  justify-content: center;
   text-align: center;
   color: black;
   font-family: "Courier New", Courier, monospace;
@@ -14,7 +13,7 @@ body {
 
 header {
   background-color: #777;
-  padding: 20px;
+  padding: 1px;
   text-align: center;
   font-size: 35px;
   color: #f8f8f8;
@@ -29,8 +28,8 @@ nav {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  background: #95a3ad;
-  padding: 20px;
+  background: #12629b;
+  padding-top: 30px;
 }
 
 nav ul {
@@ -42,7 +41,7 @@ li,
 a {
   margin: 18px;
   text-decoration: none;
-  color: #f8f8f8;
+  color: #d4d4d4;
 }
 
 article {
@@ -50,14 +49,15 @@ article {
   -ms-flex: 3;
   flex: 3;
   background-color: white;
-  padding: 0px;
+  padding-bottom: 25px;
 }
 
 footer {
   background-color: #777;
-  padding: 30px;
+  padding: 50px;
   text-align: center;
   color: white;
+  height: 100%;
 }
 
 @media (max-width: 600px) {
