@@ -2,24 +2,22 @@
   box-sizing: border-box;
 }
 
-.rubrik {
-  margin-left: 200px;
-}
-
-.facts {
-  margin-left: 130px;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
 }
 
 header {
-  background-color: #3ca8c9;
+  background-color: #777;
   padding: 20px;
   text-align: center;
   font-size: 35px;
-  color: white;
+  color: #f8f8f8;
 }
 
 section {
@@ -53,7 +51,6 @@ article {
   flex: 3;
   background-color: white;
   padding: 0px;
-  margin: 0px 0px 30px 270px;
 }
 
 footer {
